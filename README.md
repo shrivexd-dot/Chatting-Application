@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-[Live](https://chatting-application-ruby.vercel.app/)
+[View Live Demo](https://chatting-application-ruby.vercel.app/)
 
 A simple and responsive chatting application built using **HTML, CSS and JavaScript**.
 
