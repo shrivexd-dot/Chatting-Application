@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chatting Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- Header -->
+        <div class="chat-header">
+            <div>
+                <h2>💬 My Chat App</h2>
+                <p><span class="online-dot"></span> Online</p>
+            </div>
+
+            <button id="clearBtn">Clear</button>
+            <button id="themeBtn">🌙</button>
+        </div>
+
+        <!-- User Name -->
+        <div class="user-area">
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter your name"
+            >
+        </div>
+
+        <!-- Messages -->
+        <div class="messages" id="messages">
+            <div class="typing" id="typing"></div>
+
+            <div class="welcome">
+                👋 Welcome to My Chat App!
+                <br>
+                Enter your name and send a message.
+            </div>
+        </div>
+
+        <!-- Message Input -->
+        <div class="message-area">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Type your message..."
+            >
+
+            <button id="sendBtn">
+                Send ➤
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
